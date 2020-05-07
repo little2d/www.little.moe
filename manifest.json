@@ -1,0 +1,9 @@
+{
+    "name": "Little",
+    "short_name": "Little",
+    "start_url": ".",
+    "display": "minimal-ui",
+    "background_color": "#D3F0BF",
+    "theme_color": "#6DB26F",
+    "description": "Welcome to my corner of the internet."
+}
