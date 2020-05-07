@@ -34,6 +34,9 @@ h1 {
     text-shadow: 4px 4px #5E7199;
     text-align: center;
     user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 
     margin: 0;
 }
@@ -49,6 +52,9 @@ nav a {
     color: #5E7199;
     text-decoration: none;
     user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 
     padding: 8px;
     border-radius: 32px;
@@ -96,7 +102,11 @@ nav a:focus {
 .character {
     pointer-events: none;
     user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 
+    flex: 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
