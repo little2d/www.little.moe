@@ -59,9 +59,7 @@ nav a {
     padding: 8px;
     border-radius: 32px;
 
-    transition: color 0.2s;
-    transition: background-color 0.2s;
-    transition: box-shadow 0.2s;
+    transition: background-color 0.2s, box-shadow 0.2s, color 0.2s;
 }
 
 nav a:hover {
@@ -119,7 +117,7 @@ nav a:focus {
     max-height: 100%;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-aspect-ratio: 4/3) {
     .page {
         flex-direction: column;
         max-height: 100%;
@@ -128,7 +126,7 @@ nav a:focus {
         margin-bottom: -20%;
     }
     .card {
-        margin-top: 10%;
+        margin-top: 5%;
     }
     nav {
         margin-bottom: 0;
@@ -137,7 +135,17 @@ nav a:focus {
 
 @media only screen and (max-width: 500px) {
     .card {
-        margin-top: 0;
         transform: scale(0.8);
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-height: 500px) {
+    .card {
+        transform: scale(0.8);
+        margin-top: 0;
+    }
+    .content {
+        margin-right: -10%;
     }
 }
