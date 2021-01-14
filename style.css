@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    background-color: #D3F0BF;
+    background-color: #E1E0EF;
 
     font-family: 'snigletregular';
 
@@ -108,7 +108,7 @@ nav a:focus {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-start;
     min-width: 50%;
 }
 
