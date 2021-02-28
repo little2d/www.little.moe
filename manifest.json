@@ -3,7 +3,7 @@
     "short_name": "Little",
     "start_url": ".",
     "display": "minimal-ui",
-    "background_color": "#E1E0EF",
+    "background_color": "#EEEEF8",
     "theme_color": "#3D71FF",
     "description": "Welcome to my corner of the internet."
 }
