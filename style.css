@@ -131,6 +131,9 @@ nav a:focus {
     nav {
         margin-bottom: 0;
     }
+    .character img {
+        margin: auto;
+    }
 }
 
 @media only screen and (max-width: 500px) {
