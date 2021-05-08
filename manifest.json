@@ -5,5 +5,17 @@
     "display": "minimal-ui",
     "background_color": "#CAE1AB",
     "theme_color": "#3D71FF",
-    "description": "Welcome to my corner of the internet."
+    "description": "Hi, I'm Little. Welcome to my corner of the internet. My current interests include anime, programming, investing, drawing, and Japanese.",
+    "icons": [
+        {
+            "src": "img/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "img/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
 }
