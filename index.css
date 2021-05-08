@@ -78,6 +78,8 @@ nav a:focus {
 .page {
     display: flex;
     height: 100%;
+    max-width: 1200px;
+    margin: auto;
     overflow: hidden;
 }
 
